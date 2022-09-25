@@ -1,2 +1,2 @@
 # RareGrooves
-maquette magasins de disque
+Maquette Magasin De Disques
