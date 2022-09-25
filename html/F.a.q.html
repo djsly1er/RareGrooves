@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site web tache 2</title>
+    <link rel="stylesheet" href="/css/text.css">
+</head>
+
+<body>
+    <header>
+        <svg viewBox="0 0 960 400">
+            <symbol id="s-text">
+                <text text-anchor="middle" x="45%" y="60%">Rare</text>
+                <text text-anchor="middle" x="45%" y="60%">Rare</text>
+              <text text-anchor="middle" x="50%" y="100%">Grooves</text>
+              <text text-anchor="middle" x="50%" y="100%">Grooves</text>
+             
+              
+              
+            </symbol>
+          
+            <g class = "g-ants">
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
+          </svg>
+        <nav>
+            <ul>
+              <li><a href="/index.html">Accueil</a></li> 
+              <li><a href="/html/33trs.html">33trs</a></li> 
+              <li><a href="/html/45trs.html">45trs</a></li> 
+              <li><a href="/html/cassettes.html">cassettes</a></li>
+              <li><a href="/html/78trs.html">78trs</a></li> 
+            </ul> 
+        </nav>
+        </header>
+       <h1>Foires Aux Questions</h1>
+        
+  </main >
+  
+  <button class="accordion" id="Q1"> Puis-je combinés plusieurs achats pour économiser sur les frais de poste?</button>
+  <div class="panel" id="Panel1">
+       <p> Absolument,nous vous ferons une estimée du poids total et nous vous facturerons a cet effet
+        Ex: $20 jusqua 3lp’simple,posté au canada;donc pour le meme prix vous aurez 3 lp’s.
+         <p>
+        </div>
+          <button class="accordion"  id="Q2"> Livrez-vous seulement au canada??</button>
+  <div class="panel"id="Panel2">
+       <p> Nous livrons partout au monde,sauf certains endroits en zone eloignées et turbulente.EX: l'Ukraine en ce moment..
+         <p>
+        </div>
+          <button class="accordion"  id="Q3"> Acceptez-vous les payments par paypal?</button>
+  <div class="panel" id="Panel3">
+       <p> Oui,nous acceptons Paypal,carte de crédits,virements bancaires et meme les bitcoins.
+         <p>
+        </div>
+          <button class="accordion"  id="Q4">Les colis sont ils envoyés avec un suivi?</button>
+  <div class="panel" id="Panel4">
+       <p>Les colis sont ils envoyé avec un suivi?
+         <p>
+        </div>
+          <button class="accordion"  id="Q5"> Accepter vous les retours?</button>
+  <div class="panel" id="Panel5">
+       <p>Oui, nous acceptons les retours sur les items endomagé ou erronés pour echange seulement,
+        Les items retournés sans cette raisons seront a vos frais.
+        
+         <p>
+  </div>
+  <script>
+         var acc = document.getElementsByClassName("accordion");
+         var i;
+         for (i = 0; i < acc.length; i++) 
+             {
+              acc[i].addEventListener("click", function() 
+                   {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.display === "block") {
+                                                    panel.style.display = "none";
+                                                   } 
+              else {
+                    panel.style.display = "block";
+                   }
+             });
+                  }
+   </script> 
+</main>
+
+
+
+
+        <footer>
+                <nav>
+                    <ul>
+                      <li><a href="/html/a_propos.html">A propos</a></li> 
+                      <li><a href="/html/liens.html">Sites d'interets</a></li>
+                      <li><a href="/html/plansite.html">Plans du site</a></li>
+                      <li><a href="mailto: ferrons2@csdm.ca">Contact</a></li> 
+                      <li><a href="/html/F.a.q.html">F.A.Q</a></li>
+                    
+                    </ul> 
+                </nav>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <a href="https://www.facebook.com/emicacssdm/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/emica_mtl?lang=fr" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/emica/" class="fa fa-instagram"></a>
+    <a href="https://youtube.com/" class="fa fa-youtube"></a>
+    <a href="https://ca.linkedin.com/company/%C3%A9cole-des-m%C3%A9tiers-de-l'informatique-du-commerce-et-de-l'administration" class="fa fa-linkedin"></a>
+    <a href="https://google.com" class="fa fa-google"></a>
+        </footer>
+    
+  </body>
+</html>

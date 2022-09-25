@@ -1,0 +1,555 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+  
+}
+
+body{
+  background: rgb(0, 162, 255);
+  font-family:"ARIAL";
+}
+
+svg {
+    display: block;
+    font: 14.5em 'monserat';
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 10px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+  stroke: rgb(235, 3, 131);
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: hwb(246 1% 8%);
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+  stroke: rgb(235, 3, 131);
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: hwb(212 22% 13%);
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: hwb(246 1% 8%);
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}
+body{
+    background-image: url(/images/kool5.PNG);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position: center;
+    text-align:center;
+    width: 70%;
+    margin-right: auto;
+    margin-top: 0px;
+}
+/*fin du body et début du header image de l'entete*/
+header{
+  margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left:140px;
+    background-image:  url(/images/header\ table.jpg)  ;
+    border: 30px double rgb(235, 3,131) ;
+    width: 975px;
+    height: 580px;
+    
+    }
+    
+    /*modif pour titre rare groove*/
+      /*header h1 {
+        font-size: 150px;
+        color: rgb(233, 219, 20);
+        position: relative; top: 190px;
+        text-align: center;
+        }
+        /*fin des modif rare groove -début barre de menu */
+        header nav{
+            background-color: rgba(42, 124, 248, 0.945);
+            border-radius: 25px;
+            height: 35px;
+            margin-top: 120px;
+            margin-left: -10px;
+            width: 1000px;
+
+
+        
+        } 
+        /*debut de la liste du menu*/
+         header nav ul li {
+
+            list-style-type: none;
+            display: inline;
+            text-align:center;
+            color: lightskyblue;
+            line-height:  35px; 
+            margin-right: 75px;
+            margin-left: 55px;
+            font-weight: bold;
+            font-size: 16px;
+        }  
+        /*fin de liste/debut des modifs hover*/
+        header nav ul li a :hover {
+            text-decoration: none;
+            color: lightskyblue;
+        }
+        header nav ul li a:hover {
+            text-decoration: none;
+            color: black;
+        }
+      /*debut de section*/
+      section {
+        width: 55%;
+        float: none;
+        }
+        section article {
+            background-color: lightskyblue;
+            border:2px solid rgb(235, 3,131); 
+            border-radius: 25px;
+            margin-top: 90px;
+            margin-right: -70px;
+            margin-left: 130px;
+            text-align:center;
+            
+            font-weight: bold;
+            font-size: 14px;
+            color: black;
+            padding: 5px;
+        }
+        section article h3 {
+            background-color:rgba(42, 124, 248, 0.945);
+            padding: 10px;
+            text-align: center;
+            font-family:'charming smile';
+            font-size: 25px;
+            font-weight: bold;
+            color:#f32ad5;
+            }
+          /*debut de section2*/
+           aside {
+                  border:2px solid rgb(235, 3, 131);
+                  border-radius: 25px;
+                  width: 480px;
+                  height: 470px;
+                  margin-left: 690px;
+                  margin-right: 510px;
+                  margin-top: -47px;
+                  margin-top: -476px;
+                 }
+        aside h3{
+            background-color:rgba(42, 124, 248, 0.945);
+            padding: 10px;
+            text-align: center;
+            font-size: 25px;
+            color: #f32ad5;
+            margin-left: 0px;
+            margin-right:  0px; 
+        }
+        /*aside h4{
+            background-color:yellow;
+            padding: 10px;
+            text-align: center;
+            font-size: 25px;
+            color: blue;
+            margin-left: 0px;
+            margin-right:  0px
+        }
+        /* fin de section2 & debut de footer*/
+       footer {
+               position: relative;
+               bottom: 400px;
+               margin-bottom: 20px;
+               width: 975px;
+               clear: both; 
+              }
+             footer nav {
+              background-color:rgba(42, 124, 248, 0.945);
+              border-radius: 25px;
+              height: 35px;
+              margin-top: 430px;
+              margin-left: 130px;
+              width:1050px;
+              margin-bottom: 0px;
+    
+             }      
+              footer nav ul li{
+              list-style-type: none;
+              display: inline;
+              text-align: center;
+              color: lightskyblue;
+              line-height:  35px; 
+              margin-right: 120px;
+              font-weight: bold;
+              font-size: 14px;
+
+               }
+             footer nav ul li a:hover {
+              
+              text-decoration: none;
+              color: white;
+              } 
+              footer nav ul li a:hover{
+                text-decoration: none;
+                color: black  
+              }
+              /*FIN FOOTER/ DEBUT CONTAINER */
+              
+             #container {
+                         
+                         
+            width :135%;
+            margin: 0%;
+            padding: 30px;
+            align-items: flex-start;
+            display: flex;overflow: auto;
+            justify-content: space-between;
+           }
+            /*FIN CONTAINER / DEBUT CONTAINER 2 (78tr)*/
+           #container2 {
+           width: 100%;
+           margin-top: 20px;
+           margin-left: 180px;
+         
+           }
+           #container2 h3{
+         
+         margin-left:  20px;
+
+           }
+            /*FIN CONTAINER 2(78tr)/ DEBUT 33TR*/
+          #container33TR{
+          width: 100%;
+          margin-top: 20px;
+          margin-left: 200px;
+          }
+          #container33TR h3{
+          margin-left:10px;
+            }
+            /*FIN CONTAINER33/DEBUT CONTAINER 45*/
+          #container45{
+          width: 100%;
+          margin-top:50px;
+          margin-left:180px;
+           }
+          #container45 h4{
+          margin-left:10px;
+             }
+             /*FIN CONTAINER 45/ DEBUT INDEX*/
+          #containerindex {
+                           width: 100%;
+                           margin-top: 150px;
+                           margin-left: 180px;
+                         }
+          #containerindex h3{
+          margin-left:  0px;
+          }
+          /*FIN INDEX/DEBUT containerLiens*/
+          #containerLiens {
+            width: 1000px ;
+            height: auto;
+            /*background-color: lightskyblue;*/
+            border:25px solid rgb(235, 3,131); 
+            border-radius: 25px;
+            margin-top: 90px;
+            margin-right: -70px;
+            margin-left: 350px;
+            text-align:justify;
+            background-image: url(/images/manuel\ valdez.jpg);
+            
+            width: 520px;
+            height: 500px;
+            /*background-image: url(/images/kool2.PNG); */  
+            color: #f32ad5;
+            font-weight: bold;
+            font-size: 22px;
+            padding: 5px;
+          }
+          #containerLiens ul li {
+            margin-left: 360px;
+            margin-top: 20px;
+            list-style-type: none;
+            color: #f32ad5;
+            
+            
+          }
+         #containerLiens h2{
+          text-align: start;
+          margin-left: 150px;
+          color:#f32ad5;
+        ;
+         }
+         #containerLiens ul li a:hover{
+          text-decoration: none;
+          color: #f32ad5;
+         }
+         #containerLiens ul li a:hover{
+          text-decoration: none;
+          color: white
+         }
+        
+
+     
+     .accordion {
+                 font-family: Arial, Tahoma, Verdana, Anel, Calibri;
+                 background-color: rgb(38, 191, 234); 
+                 color: #f32ad5;
+                 cursor: pointer;
+                 padding:  14px;
+                 width: 90%;
+                 text-align: justify;
+                 
+                 outline: none;
+                 transition: 0.10s;
+                 font-size: 1.2em;
+                 margin-top :100px;
+                 margin-left: 900px;
+                }
+     
+     .accordion:hover {
+                       background-color: #ccc;
+                      }
+     
+     .panel {
+             padding: 0 14px;
+             display: none;
+             overflow: hidden;
+             margin-top: 0px;
+             margin-left: 900px;
+            }
+     
+     .panel p {
+               font-family: Tahoma, Verdana, Calibri, Arial;
+               font-size: 1.3em;
+               text-align: center;
+               color: yellow;
+               font-weight: bold;
+           }
+      #Q1 {
+                margin-left: 270px;
+                margin-top:0px ;
+                width: fit-content;
+             }
+        #Panel1{
+              margin-left: 290px;
+              margin-top:0px ;
+              width: fit-content;
+             }
+           body h1{
+            background-color:rgba(42, 124, 248, 0.945);
+            padding: 10px;
+            text-align: center;
+            font-size: 25px;
+            color: #f32ad5;
+            width: fit-content;
+            margin-top: 60px;
+            margin-left:525px ;
+            
+            
+             }
+        #Q2 {
+              margin-left: 470px;
+              margin-top:0px ;
+              width: fit-content;
+           }
+        #Panel2{
+            margin-left: 470px;
+            margin-top:0px ;
+            width: fit-content;
+           }
+        #Q3 {
+            margin-left: 150px;
+            margin-top:0px ;
+            width: fit-content;
+          }
+        #Panel3{
+          margin-left: 150px;
+          margin-top:0px ;
+          width: fit-content;
+          }
+        #Q4 {
+          margin-left: 350px;
+          margin-top:0px ;
+          width: fit-content;
+         }
+        #Panel4{
+        margin-left: 350px;
+        margin-top:0px ;
+        width: fit-content;
+         } 
+        #Q5 {
+          margin-left: 350px;
+          margin-top:0px ;
+          width: fit-content;
+         }
+         #Panel5{
+        margin-left: 350px;
+        margin-top:0px ;
+        width: fit-content;
+        }
+        #propos{
+          background-color: lightskyblue;
+            border:2px solid rgb(235, 3,131); 
+            border-radius: 25px;
+            margin-top: 90px;
+            margin-right: -70px;
+            margin-left: 300px;
+            text-align:center;
+            
+            font-weight: bold;
+            font-size: 14px;
+            color: black;
+            padding: 5px;
+
+        }
+        #propos h1{
+            background-color:rgba(42, 124, 248, 0.945);
+            padding: 10px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            color:#f32ad5;
+            width: 684px;
+            margin-left: -5px;
+            margin-top: 20px;
+          }
+          #plan {
+            width: 1000px ;
+            height: auto;
+            border:25px solid rgb(235, 3,131); 
+            border-radius: 25px;
+            margin-top: 90px;
+            margin-right: -70px;
+            margin-left: 420px;
+            text-align:justify;
+            background-image: url(/images/exitos-500x502.jpg);
+            width: 480px;
+            height: 450px;
+            font-size: 20px;
+            padding: 0px;
+
+          }
+          #plan h1 {
+          text-align: center;
+          margin-left: 165px;
+          margin-top: -25px;
+          color:#f32ad5
+         }
+         #plan ul li {
+          margin-left: -15px;
+            margin-top: 10px;
+            list-style-type: none;
+            color: #f32ad5
+         }
+         #plan ul li a:hover{
+          text-decoration: none;
+          color: white;
+         }
+         #plan ul li a:hover{
+          text-decoration: none;
+          color: white;
+        }
+        /*socialmedia*/
+        /*.fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+        }*/
+          .fa {
+            padding: 20px;
+            font-size: 20px;
+            width: 10px;
+            text-align:center
+            text-decoration: none;
+            border-radius: 30%;
+            margin-left:40px;
+            margin-top: 5px;
+           
+          
+          
+            
+          }
+        
+       
+.fa:hover {
+  opacity: 0.5;
+}
+
+
+
+/* Facebook */
+.fa-facebook {
+ 
+ background: #3B5998;
+  color: white;
+  align-items: center;
+  width: fit-content;
+  margin-left: 300px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/*linkein*/
+.fa-linkedin{
+ 
+  background: #3B5998;
+   color: white;
+ }
+ /*instagram*/
+ .fa-instagram {
+ 
+  background: #3B5998;
+   color: white;
+ }
+ /*google*/
+ .fa-google {
+ 
+  background: red;
+   color: white;
+ } 
+ /*youtube*/
+ .fa-youtube {
+ 
+  background: red;
+   color: white;
+ }
+ 
+
+  
+  
+ 
+          
+
+        
+              
+        
+                         
+                         
+
