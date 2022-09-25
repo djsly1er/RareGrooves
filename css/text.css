@@ -57,7 +57,7 @@ svg {
   100% {stroke-dashoffset: -35%;}
 }
 body{
-    background-image: url(/images/kool5.PNG);
+    background-image: url(../images/kool5.PNG);
     background-size: cover;
     background-repeat: repeat-y;
     background-size: 100%;
@@ -72,21 +72,15 @@ header{
   margin-top: 10px;
     margin-bottom: 20px;
     margin-left:140px;
-    background-image:  url(/images/header\ table.jpg)  ;
+    background-image:  url(../images/header\ table.jpg)  ;
     border: 30px double rgb(235, 3,131) ;
     width: 975px;
     height: 580px;
     
     }
     
-    /*modif pour titre rare groove*/
-      /*header h1 {
-        font-size: 150px;
-        color: rgb(233, 219, 20);
-        position: relative; top: 190px;
-        text-align: center;
-        }
-        /*fin des modif rare groove -début barre de menu */
+    
+      /*fin des modif rare groove -début barre de menu */
         header nav{
             background-color: rgba(42, 124, 248, 0.945);
             border-radius: 25px;
@@ -153,20 +147,21 @@ header{
                   border:2px solid rgb(235, 3, 131);
                   border-radius: 25px;
                   width: 480px;
-                  height: 470px;
+                  height: 450px;
                   margin-left: 690px;
                   margin-right: 510px;
-                  margin-top: -47px;
-                  margin-top: -476px;
+                  margin-top: -427px;
+                 
                  }
         aside h3{
             background-color:rgba(42, 124, 248, 0.945);
-            padding: 10px;
+            padding: 5px;
             text-align: center;
             font-size: 25px;
             color: #f32ad5;
             margin-left: 0px;
             margin-right:  0px; 
+            margin margin-top:10px;
         }
         /*aside h4{
             background-color:yellow;
@@ -277,7 +272,7 @@ header{
             margin-right: -70px;
             margin-left: 350px;
             text-align:justify;
-            background-image: url(/images/manuel\ valdez.jpg);
+            background-image: url(../images/manuel\ valdez.jpg);
             
             width: 520px;
             height: 500px;
@@ -444,7 +439,7 @@ header{
             margin-right: -70px;
             margin-left: 420px;
             text-align:justify;
-            background-image: url(/images/exitos-500x502.jpg);
+            background-image: url(../images/exitos-500x502.jpg);
             width: 480px;
             height: 450px;
             font-size: 20px;
@@ -483,11 +478,11 @@ header{
             padding: 20px;
             font-size: 20px;
             width: 10px;
-            text-align:center
+            text-align:center;
             text-decoration: none;
-            border-radius: 30%;
+            border-radius:30%;
             margin-left:40px;
-            margin-top: 5px;
+            margin-top:5px;
            
           
           
